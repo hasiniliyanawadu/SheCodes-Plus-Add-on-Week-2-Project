@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Add On</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="main-body">
+    <h1>World Clock</h1>
+        <select name="" id="cities">
+            <option value="">Select a city</option>
+            <option value="current-location">Current Location</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Austrailia/Sydney">Sydney</option>
+        </select>
+        <div class="container text-center">
+           <div class="location-list">
+            <div class="location">
+                <div class="row" id="new-york">
+                    <div class="col left">
+                        <div class="name">New York</div>
+                        <div class="date"></div>
+                    </div>
+                    <div class="col right">
+                        <div class="time"><small></small></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="location">
+                <div class="row" id="amsterdam">
+                    <div class="col left">
+                        <div class="name">Amsterdam</div>
+                        <div class="date"></div>
+                    </div>
+                    <div class="col right">
+                        <div class="time"><small></small></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="location">
+                <div class="row" id="edmonton">
+                    <div class="col left">
+                        <div class="name">Edmonton</div>
+                        <div class="date"></div>
+                    </div>
+                    <div class="col right">
+                        <div class="time"><small></small></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+           </div>
+        </div>
+    <footer><a href="https://github.com/BEX-0/plus-add-on" target="_blank">Open Source Code</a> by Rebecca Leibowitz</footer>
+<script src="src/script.js"></script>
+</body>
+</html>
