@@ -1,0 +1,74 @@
+body {
+    background-image: url(pexels-clock.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
+.date {
+    font-size: 18px;
+    font-weight: 500;
+}
+footer {
+    margin: 0 auto;
+    display: block;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    max-width: 350px;
+}
+.left {
+    text-align: left;
+}
+h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 600;
+}
+#home-link {
+   font-size: 14px;
+}
+.main-body {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px solid gray;
+    border-radius: 20px;
+    max-width: 650px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.name {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+.right {
+    text-align: right;
+    font-size: 35px;
+}
+.row {
+    padding: 10px;
+}
+select {
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #555565;
+    color: white;
+    padding: 5px 10px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.time small {
+    font-size: 18px;
+    vertical-align: middle;
+}
